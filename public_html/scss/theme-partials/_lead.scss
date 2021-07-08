@@ -1,0 +1,57 @@
+.lead-page-section{
+    padding:20px;
+    background-size: cover;
+     
+
+}
+
+
+@media(min-width:576px){
+    .lead-page-section{
+        padding: 60px;
+        background-size: cover;
+
+
+    }  
+
+
+}
+
+@media(min-width:768px){
+    .lead-page-section{
+        padding: 100px;
+        background-size: cover;
+
+    }  
+
+
+}
+
+@media(min-width:992px){
+    .lead-page-section{
+        padding: 170px;
+        background-size: cover;
+      
+            .lead-title{
+                font-size: 60px;
+                font-weight: 300;
+                letter-spacing: 20px;
+                line-height: 84px;
+                text-align: center;
+            }
+        }
+
+    }  
+
+
+
+
+@media(min-width:1200px){
+    .lead-page-section{
+        padding: 250px;
+        background-size: cover;
+
+    }  
+
+
+}
