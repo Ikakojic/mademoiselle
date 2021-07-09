@@ -8,6 +8,7 @@ img{
 body{
     font-family: $base-font;
     font-weight: $font-weight-normal;
+    
 }
 
 h1,h2,h3,h4,h5{
@@ -25,5 +26,25 @@ h1,h2,h3,h4,h5{
     }
 }
 
+h2{
+    font-size: 3rem;
+    line-height: 4.5rem;
+    letter-spacing: 5px;
+    text-align: left;
+    margin-bottom: 5rem;
+    
+    
+    
+}
+
+h2:after{
+    content: '';
+    height: 1px;
+    width: 74px;
+    background-color:  #ECD9D9;
+    display: block;
+    position: relative;
+    margin-top: 20px;
+}
 
 

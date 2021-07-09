@@ -1,0 +1,47 @@
+$beauty-text: $gray-900;
+
+.beauty-trends{
+    padding: 75px 0px 111px;
+
+    .beauty-trends-item{
+
+        a{
+            color: $beauty-text;
+        } 
+        i{
+            font-size: 1.4rem;
+            letter-spacing: 1px;
+
+            line-height: 1.7rem;
+            margin-bottom: 1.7rem;
+        }
+        .beauty-trends-caption{
+            left: 10px;
+            right: 10px;
+            bottom: -20px;
+            display: none;
+
+
+        }
+        img{
+            width: 100%;
+            display: block;
+            transition: 0.5s linear;
+
+        }
+    }
+
+
+    .beauty-trends-item:hover .beauty-trends-caption{
+        display: block;
+    }
+
+
+
+    .beauty-trends-item:hover img{
+        transform: scale(1.2);
+    }
+
+
+}
+
