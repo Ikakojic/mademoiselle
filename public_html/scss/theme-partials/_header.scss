@@ -28,6 +28,9 @@ header{
             text-align: center;
         }
     }
+    .navbar-nav .nav-link{
+        border: 1px solid transparent;
+    }
 
     .navbar-nav .nav-link.active{
         border-top: 1px solid transparent;

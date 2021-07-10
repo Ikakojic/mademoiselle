@@ -9629,6 +9629,10 @@ header .navbar-nav a {
   text-align: center;
 }
 
+header .navbar-nav .nav-link {
+  border: 1px solid transparent;
+}
+
 header .navbar-nav .nav-link.active {
   border-top: 1px solid transparent;
   border-bottom: 1px solid #ECD9D9;
@@ -9702,6 +9706,9 @@ header .navbar-nav .nav-link:hover {
   right: 10px;
   bottom: -20px;
   display: none;
+  font-size: 15px;
+  line-height: 1.7rem;
+  margin-bottom: 12px !important;
 }
 
 .beauty-trends .beauty-trends-item img {
@@ -9853,6 +9860,28 @@ footer .copy a {
   line-height: 2.6rem;
   font-size: 1.8rem;
   letter-spacing: normal;
+}
+
+.beauty-trends {
+  padding: 20px 60px;
+}
+
+.beauty-trends .beauty-trends-caption {
+  font-size: 15px;
+  line-height: 1.7rem;
+  margin-bottom: 12px !important;
+}
+
+.pagination-example .pagination {
+  font-family: "Bodoni";
+  font-weight: 700;
+  line-height: 24px;
+  font-size: 16px;
+}
+
+.pagination-example .pagination .page-item .page-link {
+  border: none;
+  color: #1E1E1E;
 }
 
 /*# sourceMappingURL=theme.css.map */
