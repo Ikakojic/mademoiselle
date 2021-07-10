@@ -1,6 +1,17 @@
 
-$(document).ready(function(){
-  
+$(document).ready(function () {
+
+
+    $('.slider').bxSlider({
+        controls: false,
+        mode: 'vertical'
+
+
+
+    });
+
+
+
     //animation
     function animation() {
         let  windowHeight = $(window).height();
@@ -22,8 +33,8 @@ $(document).ready(function(){
         animation();
     });
     animation();
-    
-    
-    
+
+
+
 });
 

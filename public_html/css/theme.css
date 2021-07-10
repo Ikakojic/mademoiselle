@@ -9777,6 +9777,21 @@ header .navbar-nav .nav-link:hover {
   font-weight: 300;
 }
 
+.professionals .bx-wrapper .bx-pager {
+  bottom: -50px;
+}
+
+.professionals .bx-wrapper .bx-pager.bx-default-pager a {
+  background: #ECD9D9;
+  width: 8px;
+  height: 8px;
+  margin: 0 5px;
+  outline: 0;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
 @media (min-width: 992px) {
   .professionals-content {
     padding: 54px 190px 50px 95px;
@@ -9789,6 +9804,12 @@ header .navbar-nav .nav-link:hover {
   .professionals-content .professionals-text p {
     font-size: 1.6rem;
     line-height: 2.3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .professionals .bx-wrapper .bx-pager {
+    bottom: 50px;
   }
 }
 

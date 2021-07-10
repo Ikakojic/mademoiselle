@@ -1,5 +1,5 @@
 
-
+$slider-dot: #ECD9D9;
 $professionals-border: 1px solid #ECD9D9;
 
 .professionals{
@@ -17,8 +17,31 @@ $professionals-border: 1px solid #ECD9D9;
 
         }
     }
+    .bx-wrapper {
+        .bx-pager{
+            bottom: -50px;
+
+        }
+
+    }
+    .bx-wrapper .bx-pager.bx-default-pager a {
+        background: $slider-dot;
+
+        width: 8px;
+        height: 8px;
+        margin: 0 5px;
+        outline: 0;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+    }
+
 
 }
+
+
+
+
 
 @media(min-width:992px){
     .professionals-content{
@@ -28,6 +51,7 @@ $professionals-border: 1px solid #ECD9D9;
 
 
     }
+
 }
 
 
@@ -43,6 +67,21 @@ $professionals-border: 1px solid #ECD9D9;
 
 
     }
+
+
+}
+
+@media(min-width:1200px){
+    .professionals{
+        .bx-wrapper {
+            .bx-pager{
+                bottom: 50px;
+
+            }
+
+        }
+    }
+
 }
 
 
