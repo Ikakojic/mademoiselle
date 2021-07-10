@@ -1,0 +1,29 @@
+
+$social-icons: #ECD9D9;
+footer{
+    padding: 25px 0px 40px;
+
+    .social{
+        a{
+
+            color: $social-icons !important;
+            font-size: 2rem;
+            transition: 1s linear;
+
+            &:hover{
+                transform: rotate(360deg);
+            }
+        }
+    }
+    
+    .copy{
+        font-size: 1.2rem;
+        line-height: 4.1rem;
+        letter-spacing: -0.17px;
+        a{
+            color: #1E1E1E;
+        }
+    }
+
+
+}

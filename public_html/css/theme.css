@@ -9792,4 +9792,28 @@ header .navbar-nav .nav-link:hover {
   }
 }
 
+footer {
+  padding: 25px 0px 40px;
+}
+
+footer .social a {
+  color: #ECD9D9 !important;
+  font-size: 2rem;
+  transition: 1s linear;
+}
+
+footer .social a:hover {
+  transform: rotate(360deg);
+}
+
+footer .copy {
+  font-size: 1.2rem;
+  line-height: 4.1rem;
+  letter-spacing: -0.17px;
+}
+
+footer .copy a {
+  color: #1E1E1E;
+}
+
 /*# sourceMappingURL=theme.css.map */
