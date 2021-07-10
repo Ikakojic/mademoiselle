@@ -1,0 +1,49 @@
+
+
+$professionals-border: 1px solid #ECD9D9;
+
+.professionals{
+    margin-bottom: 7rem;
+    .professionals-text{
+        h4{
+            font-family: $lato;
+            line-height: 2.7 rem;
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        p{
+            font-size: 1.2rem;
+            font-weight: 300;
+
+        }
+    }
+
+}
+
+@media(min-width:992px){
+    .professionals-content{
+        padding: 54px 190px 50px 95px;
+        border-bottom: $professionals-border;
+        border-top: $professionals-border;
+
+
+    }
+}
+
+
+@media(min-width:768px){
+    .professionals-content{
+        .professionals-text{
+            p{
+                font-size: 1.6rem;
+                line-height: 2.3rem
+
+            }
+        }
+
+
+    }
+}
+
+
+

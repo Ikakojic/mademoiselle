@@ -9579,6 +9579,7 @@ body {
 
 h1, h2, h3, h4, h5 {
   font-family: "Bodoni";
+  text-transform: uppercase;
 }
 
 @media (min-width: 768px) {
@@ -9639,6 +9640,10 @@ header .navbar-nav .nav-link:hover {
 .lead-page-section {
   padding: 20px;
   background-size: cover;
+}
+
+.lead-page-section h1 {
+  font-size: 2.5rem;
 }
 
 @media (min-width: 576px) {
@@ -9753,6 +9758,37 @@ header .navbar-nav .nav-link:hover {
     line-height: 4.4rem;
     letter-spacing: normal;
     margin-bottom: 2rem;
+  }
+}
+
+.professionals {
+  margin-bottom: 7rem;
+}
+
+.professionals .professionals-text h4 {
+  font-family: "Lato", sans-serif;
+  line-height: 2.7 rem;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.professionals .professionals-text p {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+@media (min-width: 992px) {
+  .professionals-content {
+    padding: 54px 190px 50px 95px;
+    border-bottom: 1px solid #ECD9D9;
+    border-top: 1px solid #ECD9D9;
+  }
+}
+
+@media (min-width: 768px) {
+  .professionals-content .professionals-text p {
+    font-size: 1.6rem;
+    line-height: 2.3rem;
   }
 }
 
