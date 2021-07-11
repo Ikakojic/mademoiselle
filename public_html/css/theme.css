@@ -9916,6 +9916,10 @@ footer .copy a {
   font-size: 2rem;
 }
 
+.form .map {
+  text-align: center;
+}
+
 .form .form-control {
   background-color: rgba(37, 61, 97, 0.02);
   border: none;
@@ -9938,6 +9942,11 @@ footer .copy a {
   main {
     padding-top: 90px;
   }
+  .form .map {
+    position: absolute;
+    top: 200px;
+    left: 501px;
+  }
   .contact-lead h2 {
     font-size: 3rem;
     line-height: 4.5rem;
@@ -9945,6 +9954,12 @@ footer .copy a {
   }
   .contact-lead h2 .form {
     padding: 80px 0 100px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .form .map {
+    left: 901px;
   }
 }
 

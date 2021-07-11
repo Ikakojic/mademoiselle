@@ -7,34 +7,34 @@
 }
 
 .form{
-    
-    
-    
+    .map{
+        text-align: center;
+    }
+
+
     .form-control{
-        
+
         background-color: rgba(#253D61, 0.02);
         border: none;
         height: 50px;
         line-height: 50px;
         padding: 0 10px;
-        
+
     }
-    
+
     textarea.form-control{
         height: 250px;
         resize: none;
     }
     .contact-form{
-        
+
         .btn{
             border: 1px solid #1E1E1E;
             margin-bottom: 100px;
         }
     }
+
     
-    .map{
-        
-    }
 }
 
 
@@ -42,6 +42,14 @@
 @media(min-width:992px){
     main{
         padding-top: 90px;
+    }
+    .form{
+        .map{
+        position: absolute;
+        top: 200px;
+        left: 501px;
+
+    }
     }
     .contact-lead{
         h2{
@@ -54,4 +62,10 @@
         }
     }
 }
-
+@media(min-width:1200px){
+    .form{
+        .map{
+            left: 901px;
+        }
+    }
+}
