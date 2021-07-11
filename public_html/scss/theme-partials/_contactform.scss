@@ -1,0 +1,57 @@
+.contact-lead{
+    h2{
+        font-size: 2rem;
+    }
+
+
+}
+
+.form{
+    
+    
+    
+    .form-control{
+        
+        background-color: rgba(#253D61, 0.02);
+        border: none;
+        height: 50px;
+        line-height: 50px;
+        padding: 0 10px;
+        
+    }
+    
+    textarea.form-control{
+        height: 250px;
+        resize: none;
+    }
+    .contact-form{
+        
+        .btn{
+            border: 1px solid #1E1E1E;
+            margin-bottom: 100px;
+        }
+    }
+    
+    .map{
+        
+    }
+}
+
+
+
+@media(min-width:992px){
+    main{
+        padding-top: 90px;
+    }
+    .contact-lead{
+        h2{
+            font-size: 3rem;
+            line-height: 4.5rem;
+            letter-spacing: 5px;
+            .form{
+                padding: 80px 0 100px;
+            }
+        }
+    }
+}
+

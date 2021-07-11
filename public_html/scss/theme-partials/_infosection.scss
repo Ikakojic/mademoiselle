@@ -1,0 +1,33 @@
+$info-back: #ECD9D9;
+$info-color: $gray-900;
+.info-section{
+    background-color: $info-back;
+    line-height: 1.5rem;
+    font-size: 1.7rem;
+    font-weight: 300;
+    letter-spacing: normal;
+    color: $gray-900;
+    padding: 30px 50px;
+
+
+    .info-phone a{
+        color: $info-color;
+        text-decoration: none;
+    }
+    .info-mail a{
+        color: $info-color;
+
+    }
+}
+
+@media(min-width:1200px){
+    .info-section{
+        padding: 60px 400px;
+        font-size: 2.4rem;
+        line-height: 2rem;
+
+
+    }
+
+
+}
