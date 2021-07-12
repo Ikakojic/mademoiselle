@@ -9693,6 +9693,7 @@ header .navbar-nav .nav-link:hover {
 
 .beauty-trends .beauty-trends-item a {
   color: #1E1E1E;
+  font-family: "Bodoni";
 }
 
 .beauty-trends .beauty-trends-item i {
@@ -10015,6 +10016,80 @@ footer .copy a {
     font-size: 1.8rem;
     line-height: 2.6rem;
     letter-spacing: normal;
+  }
+}
+
+.about-content h2 {
+  font-family: "Lato", sans-serif;
+  letter-spacing: normal;
+}
+
+.about-content p {
+  font-weight: 300;
+  font-size: 1.4rem;
+}
+
+.about-content .about-item a {
+  color: #1E1E1E;
+  font-family: "Bodoni";
+}
+
+.about-content .about-item i {
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  line-height: 1.7rem;
+  margin-bottom: 1.7rem;
+}
+
+.about-content .about-item .about-item-caption {
+  left: 10px;
+  right: 10px;
+  bottom: -20px;
+  display: none;
+  font-size: 15px;
+  line-height: 1.7rem;
+  margin-bottom: 12px !important;
+}
+
+.about-content .about-item img {
+  width: 100%;
+  display: block;
+  transition: 0.5s linear;
+}
+
+.about-content .about-item:hover .about-item-caption {
+  display: block;
+}
+
+.about-content .about-item:hover img {
+  transform: scale(1.2);
+}
+
+.about-content .form-inline .form-control {
+  position: relative;
+  font-style: italic;
+  height: 69px;
+  width: 100%;
+}
+
+.about-content .form-inline .btn {
+  position: absolute;
+  right: 10px;
+}
+
+@media (min-width: 992px) {
+  .about-content {
+    padding: 90px 0px 80px 0px;
+  }
+  .about-content h2 {
+    line-height: 5rem;
+    font-size: 4.4rem;
+    padding: 90px 250px 0px 0px;
+  }
+  .about-content p {
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 2.8rem;
   }
 }
 

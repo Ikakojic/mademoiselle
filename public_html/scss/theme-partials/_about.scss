@@ -1,0 +1,86 @@
+$about-color: $gray-900;
+
+.about-content{
+
+    h2{
+        font-family: $lato;
+        letter-spacing: normal;
+
+    }
+    p{
+        font-weight: 300;
+        font-size: 1.4rem;
+    }
+    .about-item{
+
+        a{
+            color: $about-color;
+            font-family: $bodoni;
+        } 
+
+        i{
+            font-size: 1.4rem;
+            letter-spacing: 1px;
+            line-height: 1.7rem;
+            margin-bottom: 1.7rem;
+        }
+        .about-item-caption{
+            left: 10px;
+            right: 10px;
+            bottom: -20px;
+            display: none;
+            font-size: 15px;
+            line-height: 1.7rem;
+            margin-bottom: 12px !important;
+
+
+
+        }
+        img{
+            width: 100%;
+            display: block;
+            transition: 0.5s linear;
+
+        }
+    }
+    .about-item:hover .about-item-caption{
+        display: block;
+    }
+
+
+
+    .about-item:hover img{
+        transform: scale(1.2);
+    }
+
+    .form-inline{
+
+        .form-control{
+            position: relative;
+            font-style: italic;
+            height: 69px;
+            width: 100%;
+        }
+        .btn{
+            position: absolute;
+            right: 10px;
+        }
+    }
+}
+@media(min-width:992px){
+    .about-content{
+        h2{
+            line-height: 5rem;
+            font-size: 4.4rem;
+            padding: 90px 250px 0px 0px;
+        }
+        padding: 90px 0px 80px 0px;
+        p{
+            font-weight: 300;
+            font-size: 2rem;
+            line-height: 2.8rem;
+        }
+    }
+}
+
+
