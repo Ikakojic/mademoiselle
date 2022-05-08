@@ -9644,7 +9644,7 @@ header .navbar-nav .nav-link:hover {
 }
 
 .lead-page-section {
-  padding: 20px;
+  padding: 50px 0px 50px 0px;
   background-size: cover;
 }
 
@@ -9688,7 +9688,7 @@ header .navbar-nav .nav-link:hover {
 }
 
 .beauty-trends {
-  padding: 75px 0px 111px;
+  padding: 75px 0px 111px 0px;
 }
 
 .beauty-trends .beauty-trends-item a {
@@ -9707,10 +9707,12 @@ header .navbar-nav .nav-link:hover {
   left: 10px;
   right: 10px;
   bottom: -20px;
-  display: none;
+  display: block;
   font-size: 15px;
   line-height: 1.7rem;
   margin-bottom: 12px !important;
+  height: 70px;
+  font-size: 10px;
 }
 
 .beauty-trends .beauty-trends-item img {
@@ -9727,12 +9729,28 @@ header .navbar-nav .nav-link:hover {
   transform: scale(1.2);
 }
 
+@media (min-width: 768px) {
+  .beauty-trends-item .beauty-trends-caption {
+    font-size: 15px !important;
+    height: 90px !important;
+  }
+}
+
 .services {
   padding: 30px 0 50px;
+  font-size: 1.2rem;
+  line-height: 1rem;
+}
+
+.services .service-item:nth-of-type(even) {
+  background-color: #F5F5F5;
+}
+
+.services .service-item:nth-of-type(odd) {
+  background-color: #ECD9D9;
 }
 
 .services .btn {
-  margin-bottom: 10px;
   margin-left: 30px;
   padding: 5px 3px;
   font-size: 1rem;
@@ -10057,8 +10075,11 @@ footer .copy a {
   transition: 0.5s linear;
 }
 
-.about-content .about-item:hover .about-item-caption {
+.about-content .about-item .about-item-caption {
   display: block;
+  font-family: "Lato", sans-serif;
+  font-size: 2rem;
+  line-height: 2.8rem;
 }
 
 .about-content .about-item:hover img {

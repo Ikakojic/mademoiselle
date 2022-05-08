@@ -1,8 +1,10 @@
 $beauty-text: $gray-900;
 
 .beauty-trends{
-    padding: 75px 0px 111px;
+    padding: 75px 0px 111px 0px;
     
+    
+
 
     .beauty-trends-item{
 
@@ -15,15 +17,18 @@ $beauty-text: $gray-900;
             letter-spacing: 1px;
             line-height: 1.7rem;
             margin-bottom: 1.7rem;
+
         }
         .beauty-trends-caption{
             left: 10px;
             right: 10px;
             bottom: -20px;
-            display: none;
+            display: block;
             font-size: 15px;
             line-height: 1.7rem;
             margin-bottom: 12px !important;
+            height: 70px;
+            font-size: 10px;
 
         }
         img{
@@ -46,5 +51,18 @@ $beauty-text: $gray-900;
     }
 
 
+
+
+}
+
+@media (min-width:768px){
+    .beauty-trends-item {
+
+        .beauty-trends-caption{
+            font-size: 15px !important;
+            height: 90px !important;
+        }
+
+    }
 }
 

@@ -43,8 +43,12 @@ $about-color: $gray-900;
 
         }
     }
-    .about-item:hover .about-item-caption{
+    .about-item .about-item-caption{
         display: block;
+        font-family: $lato;
+        font-size: 2rem;
+        line-height: 2.8rem;
+        
     }
 
 
